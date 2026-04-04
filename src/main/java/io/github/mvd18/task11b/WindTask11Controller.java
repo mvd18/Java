@@ -60,15 +60,16 @@ public class WindTask11Controller {
 
     }
 
+    //обработчик события для кнопки
     public void figure_report(MouseEvent mouseEvent) {
-        Figure demo = new Figure(4.5, 3.2, "green");
+        Figure check = new Figure(4.5, 3.2, "green");
         text_area_report.appendText(
                 "Figure\n" +
-                        "Ширина: " + demo.getWidth() + "\n" +
-                        "Высота: " + demo.getHeight() + "\n" +
-                        "Цвет: " + demo.getColor() + "\n" +
-                        "Площадь: " + demo.getArea() + "\n" +
-                        "Периметр: " + demo.getPerimeter() + "\n\n"
+                        "Ширина: " + check.getWidth() + "\n" +
+                        "Высота: " + check.getHeight() + "\n" +
+                        "Цвет: " + check.getColor() + "\n" +
+                        "Площадь: " + check.getArea() + "\n" +
+                        "Периметр: " + check.getPerimeter() + "\n\n"
         );
     }
 
